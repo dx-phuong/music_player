@@ -27,6 +27,48 @@ const app = {
     // config: JSON.parse(localStorage.getItem(PlAYER_STORAGE_KEY)) || {},
     songs: [
         {
+            name: 'Chạy về khóc với anh',
+            img: 'assets/music/bai7/img.webp',
+            singer: 'Erik',
+            path: 'assets/music/bai7/Chay-Ve-Khoc-Voi-Anh-ERIK.mp3'
+
+        },
+        {
+            name: 'Daydreams',
+            img: 'assets/music/bai8/img.webp',
+            singer: 'SOOBIN Hoàng Sơn',
+            path: 'assets/music/bai8/Daydreams-SOOBIN-BigDaddy-Touliver.mp3'
+
+        },
+        {
+            name: 'Anh luôn là lý do',
+            img: 'assets/music/bai9/img.webp',
+            singer: 'Erik',
+            path: 'assets/music/bai9/Anh-Luon-La-Ly-Do-ERIK.mp3'
+
+        },
+        {
+            name: 'Điều anh biết',
+            img: 'assets/music/bai10/img.webp',
+            singer: 'Chi dân',
+            path: 'assets/music/bai10/Dieu-Anh-Biet-Chi-Dan.mp3'
+
+        },
+        {
+            name: 'Cứ yêu đi',
+            img: 'assets/music/bai11/img.webp',
+            singer: 'Ngô Kiến Huy',
+            path: 'assets/music/bai11/Cu-Yeu-Di-Ngo-Kien-Huy-Si-Thanh.mp3'
+
+        },
+        {
+            name: 'Nơi này có anh',
+            img: 'assets/music/bai12/img.webp',
+            singer: 'Sơn Tùng MTP',
+            path: 'assets/music/bai12/Noi-Nay-Co-Anh-Masew-Bootleg-Son-Tung-M-TP-Masew.mp3'
+
+        },
+        {
             name: 'Từ chối nhẹ nhàng thôi',
             img: 'assets/music/bai1/img.webp',
             singer: 'Bích Phương',
@@ -68,6 +110,7 @@ const app = {
             path: 'assets/music/bai6/tiny-love-Thinh-Suy.mp3'
 
         },
+
     ],
     setConfig: function (key, value) {
         this.config[key] = value;
