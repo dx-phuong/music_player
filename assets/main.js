@@ -28,44 +28,44 @@ const app = {
     songs: [
         {
             name: 'Từ chối nhẹ nhàng thôi',
-            img: '/assets/music/bai1/img.webp',
+            img: 'assets/music/bai1/img.webp',
             singer: 'Bích Phương',
-            path: '/assets/music/bai1/tu-choi-nhe-nhang-thoi-liu-riu-version-Bich-Phuong-Phuc-Du.mp3'
+            path: 'assets/music/bai1/tu-choi-nhe-nhang-thoi-liu-riu-version-Bich-Phuong-Phuc-Du.mp3'
 
         },
         {
             name: 'Tình yêu ngủ quên',
-            img: '/assets/music/bai2/img.webp',
+            img: 'assets/music/bai2/img.webp',
             singer: 'Hoàng Tôn',
-            path: '/assets/music/bai2/Tinh-Yeu-Ngu-Quen-Chill-Version-Hoang-Ton-LyHan.mp3'
+            path: 'assets/music/bai2/Tinh-Yeu-Ngu-Quen-Chill-Version-Hoang-Ton-LyHan.mp3'
 
         },
         {
             name: 'Phải lòng anh',
-            img: '/assets/music/bai3/img.webp',
+            img: 'assets/music/bai3/img.webp',
             singer: 'Dream Ver',
-            path: '/assets/music/bai3/Phai-Long-Anh-Dream-Ver-MIN.mp3'
+            path: 'assets/music/bai3/Phai-Long-Anh-Dream-Ver-MIN.mp3'
 
         },
         {
             name: 'Chạy khỏi thế giới này',
-            img: '/assets/music/bai4/img.webp',
+            img: 'assets/music/bai4/img.webp',
             singer: 'Phương Ly',
-            path: '/assets/music/bai4/Chay-Khoi-The-Gioi-Nay-Da-LAB-Phuong-Ly.mp3'
+            path: 'assets/music/bai4/Chay-Khoi-The-Gioi-Nay-Da-LAB-Phuong-Ly.mp3'
 
         },
         {
             name: 'Lose You',
-            img: '/assets/music/bai5/img.webp',
+            img: 'assets/music/bai5/img.webp',
             singer: 'Rickie',
-            path: '/assets/music/bai5/Lose-You-T-R-I-Rickie.mp3'
+            path: 'assets/music/bai5/Lose-You-T-R-I-Rickie.mp3'
 
         },
         {
             name: 'tiny love',
-            img: '/assets/music/bai6/img.webp',
+            img: 'assets/music/bai6/img.webp',
             singer: 'Thịnh Suy',
-            path: '/assets/music/bai6/tiny-love-Thinh-Suy.mp3'
+            path: 'assets/music/bai6/tiny-love-Thinh-Suy.mp3'
 
         },
     ],
