@@ -108,7 +108,8 @@ header h2 {
     background-color: var(--primary-color);
 }
 
-.progress {
+.progress,
+.speaker-range {
     width: 100%;
     -webkit-appearance: none;
     height: 6px;
@@ -126,6 +127,18 @@ header h2 {
     height: 6px;
     background-color: var(--primary-color);
     cursor: pointer;
+}
+
+.speaker-range::-webkit-slider-thumb {
+    box-shadow: 1px 1px 1px #000000;
+    border: 1px solid #000000;
+    height: 12px;
+    width: 15px;
+    border-radius: 5px;
+    background: var(--primary-color);
+    cursor: pointer;
+    -webkit-appearance: none;
+
 }
 
 /* PLAYLIST */

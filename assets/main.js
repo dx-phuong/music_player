@@ -23,8 +23,7 @@ const app = {
     isRandom: false,
     isRepeat: false,
     config: {},
-    // (1/2) Uncomment the line below to use localStorage
-    // config: JSON.parse(localStorage.getItem(PlAYER_STORAGE_KEY)) || {},
+    config: JSON.parse(localStorage.getItem(PlAYER_STORAGE_KEY)) || {},
     songs: [
         {
             name: 'Chạy về khóc với anh',
@@ -114,8 +113,7 @@ const app = {
     ],
     setConfig: function (key, value) {
         this.config[key] = value;
-        // (2/2) Uncomment the line below to use localStorage
-        // localStorage.setItem(PlAYER_STORAGE_KEY, JSON.stringify(this.config));
+        localStorage.setItem(PlAYER_STORAGE_KEY, JSON.stringify(this.config));
     },
 
     // Method render song
